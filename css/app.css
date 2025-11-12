@@ -1,27 +1,2 @@
-*{
-    margin: 0%;
-    padding: 0%;
-    box-sizing: border-box;
-}
-
-:root{
-    --background-primery-color: #ffffff;
-    --background-secundary-color: #f5f5f5;
-    --background-tertiary-color: #0000;
-
-    --button-primery-color: #8F0101;
-    --button-secundary-color: #B81515;
-    
-    --text-primery-color: #222222;
-    --text-secundary-color: #f5f5f5;
-
-    --title-width: 700;
-    --text-width: 400;
-    --menu-text-width: 500;
-}
-
-@font-face {
-    font-family:  "Montserrat", sans-serif;
-    src: url(../font/Montserrat/Montserrat-VariableFont_wght.ttf);
-    font-style: normal;
-}
+@import url(global.css);
+@import url(header.css);
