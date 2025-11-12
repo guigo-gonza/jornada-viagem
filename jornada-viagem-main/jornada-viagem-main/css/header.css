@@ -1,0 +1,45 @@
+header{
+    position:relative;
+    background-color: var(--background-tertiary-color);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 38px 48px;
+}
+
+.logo {
+    display: inline-block;
+    width: 68px;
+    height: 64px;
+  
+}
+
+.navigation-menu{
+    margin-top: 16px;
+}
+
+input[type="checkbox"]:checked ~ nav{
+    display: block;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    background-color: var(--background-tertiary-color);
+}
+
+ nav{
+    display: none;
+ }
+
+ ul{
+    list-style-type: none;
+ }
+
+.list-links li{
+    margin: 16px 0;
+}
+
+.list-links li a{
+    color: var(--text-secundary-color);
+    text-decoration: none;
+}
